@@ -46,8 +46,7 @@ app.post("/webhook", async (req, res) => {
                   id: senderId
                 },
                 message: {
-                  text: `Você escreveu: ${texto}`
-                }
+text: `Olá! Recebi sua mensagem: "${texto}". Em breve vou te responder.`                }
               }
             );
 
